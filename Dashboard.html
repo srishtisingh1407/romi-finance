@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en" class="notranslate" translate="no">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="google" content="notranslate">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="ZOMI Decentralized Perpetual Exchange">
+   <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="https://zomi.finance/favicon/manifest.json">
+  <title>Dashboard | Decentralized
+    Perpetual Exchange | $ROMI</title>
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/mediaquery.css" rel="stylesheet">
+</head>
+
+<body style="overflow: unset;">
+  <div id="root">
+    <div class="App">
+      <div class="App-content">
+        <header>
+          <div class="App-header large">
+            <div class="App-header-container-left"><a class="App-header-link-main" href="index.html"><img
+                  src="/assets/images/newlogo.png" class="big" alt="ZOMI Logo"></a></div>
+            <div class="App-header-container-left">
+              <div class="App-header-links">
+                <div class="App-header-link-container"><a href="index.html" class="">Home</a></div>
+                <div class="App-header-link-container"><a class="active" href="Dashboard.html"
+                    aria-current="page">Dashboard</a></div>
+                <div class="header-dropdown">
+                  <div class="dropbtn"><a href="" aria-current="page">NFT</a></div>
+                  <div class="header-dropdown-content"><a href="">
+                      <div>
+                        <div>Mint</div>
+                      </div>
+                    </a><a href="">
+                      <div>
+                        <div>Stake NFT</div>
+                      </div>
+                    </a></div>
+                </div>
+                <div class="App-header-link-container"><a class="" href="EARN.html">Earn</a></div>
+                <div class="App-header-link-container"><a class="" href="">Buy</a></div>
+                <div class="App-header-link-container"><a class="" href="">Referrals</a>
+                </div>
+                <div class="App-header-link-container"><a class="" href="">Ecosystem</a>
+                </div>
+                <div class="App-header-link-container"><a href="">About</a></div>
+              </div>
+            </div>
+            <div class="App-header-container-right">
+              <div class="App-header-user">
+                <div class="App-header-trade-link"><a class="default-btn" href="https://zomi.finance/#/trade">Trade</a>
+                </div>
+                <button class="btn btn-primary btn-sm connect-wallet" id="nav1" onclick="myfunction1()">
+                  <img class="btn-image" src="assets/images/wallet.svg"
+                    alt="Connect Wallet"><span class="btn-label">Connect Wallet</span>
+                </button>
+                <div class="App-header-network">
+                  <div class="network-dropdown" id="headlessui-menu-button-1" aria-haspopup="true"
+                    aria-expanded="false"><button class="btn-primary small transparent"><img
+                        class="network-dropdown-icon" src="assets/images/eth.svg" alt="Ethereum">
+                      </button>
+                    <div class="network-dropdown-seperator"></div><button class="btn-primary small transparent"><svg
+                        stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" color="white"
+                        height="20" width="20" xmlns="http://www.w3.org/2000/svg" style="color: white;">
+                        <path
+                          d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z">
+                        </path>
+                      </svg></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="App-header small">
+              <div class="App-header-link-container App-header-top">
+                <div class="App-header-container-left">
+                  <div id="bar" onclick="myfunction()" class="App-header-menu-icon-block"><svg stroke="currentColor"
+                      fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="App-header-menu-icon" height="1em"
+                      width="1em" xmlns="http://www.w3.org/2000/svg">
+                      <g>
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"></path>
+                      </g>
+                    </svg></div>
+                  <div class="App-header-link-main clickable"><img src="assets/images/newlogo.png" class="big" alt="ZOMI Logo"><img
+                      src="assets/images/newlogo.png" class="small" alt="ZOMI Logo"></div>
+                </div>
+                <div class="App-header-container-right">
+                  <div class="App-header-user">
+                    <div class="App-header-trade-link"><a class="default-btn" href="">Trade</a></div>
+                    <button class="btn btn-primary btn-sm connect-wallet"><img class="btn-image" src="assets/images/wallet.svg"
+                        alt="Connect Wallet"><span class="btn-label">Connect</span></button>
+                    <div class="App-header-network">
+                      <div class="network-dropdown"><button class="btn-primary small transparent"><img
+                            class="network-dropdown-icon" src="assets/images/eth.svg" alt="Ethereum"></button>
+                        <div class="network-dropdown-seperator"></div><button class="btn-primary small transparent"><svg
+                            stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" color="white"
+                            height="20" width="20" xmlns="http://www.w3.org/2000/svg" style="color: white;">
+                            <path
+                              d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z">
+                            </path>
+                          </svg></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </header>
+        <div id="navbar" class="App-header-links-container App-header-drawer"
+          style="transform: translateX(0%) translateZ(0px);">
+
+          <div class="App-header-links">
+
+            <div class="App-header-links-header">
+              <a class="App-header-link-main" href="#/"><img src="/assets/images/newlogo.png"
+                  alt="ZOMI Logo">
+              </a>
+              <div class="App-header-menu-icon-block mobile-cross-menu" onclick="myfunction()">
+                <svg
+                  stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
+                  stroke-linejoin="round" class="App-header-menu-icon" height="1em" width="1em"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </div>
+            </div>
+
+            <div class="App-header-link-container">
+              <a href="index.html" class="">Home</a>
+            </div>
+            <div class="App-header-link-container">
+              <a class="" href="Dashboard.html">Dashboard</a>
+            </div>
+            <div class="header-dropdown">
+              <div class="dropbtn">
+                <a href="#/nft" aria-current="page">NFT</a>
+              </div>
+              <div class="header-dropdown-content">
+                <a href="">
+                  <div>
+                    <div>Mint</div>
+                  </div>
+                </a>
+                <a href="">
+                <div>
+                    <div>Stake NFT</div>
+                </div>
+                </a>
+              </div>
+            </div>
+            <div class="App-header-link-container"><a class="" href="EARN.html">Earn</a></div>
+            <div class="App-header-link-container"><a class="" href="">Buy</a></div>
+            <div class="App-header-link-container"><a class="" href="">Referrals</a></div>
+            <div class="App-header-link-container"><a class="" href="">Ecosystem</a></div>
+            <div class="App-header-link-container"><a href="">About</a></div>
+            <div class="App-header-link-container"><a href="#">Settings</a></div>
+          </div>
+        </div>
+        <div class="default-container DashboardV2 page-layout">
+          <div class="section-title-block">
+            <div class="section-title-icon">
+            </div>
+            <div class="section-title-content">
+              <div class="Page-title">Stats 
+                <img src="assets/images/stats.svg" alt="avalanche24Icon">
+              </div>
+              <div class="Page-description">Ethereum Total Stats start from 06 Jan 2022.<br> For detailed stats: </div>
+            </div>
+          </div>
+          <div class="DashboardV2-content">
+            <div class="DashboardV2-cards">
+              <div class="App-card">
+                <div class="App-card-title">Overview</div>
+                <div class="App-card-divider"></div>
+                <div class="App-card-content">
+                  <div class="App-card-row">
+                    <div class="label">AUM</div>
+                    <div><span class="Tooltip"><span class="Tooltip-handle">$34</span></span></div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">$ZLP Pool</div>
+                    <div><span class="Tooltip"><span class="Tooltip-handle">$34</span></span></div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">24h Volume</div>
+                    <div><span class="Tooltip nowrap"><span class="Tooltip-handle">$0</span></span></div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Long Positions</div>
+                    <div><span class="Tooltip nowrap"><span class="Tooltip-handle">$0</span></span></div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Short Positions</div>
+                    <div><span class="Tooltip nowrap"><span class="Tooltip-handle">$0</span></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="App-card">
+                <div class="App-card-title">Total Stats</div>
+                <div class="App-card-divider"></div>
+                <div class="App-card-content">
+                  <div class="App-card-row">
+                    <div class="label">Total Fees</div>
+                    <div><span class="Tooltip nowrap"><span class="Tooltip-handle">$0</span></span></div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Total Volume</div>
+                    <div><span class="Tooltip nowrap"><span class="Tooltip-handle">$0</span></span></div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Floor Price Fund</div>
+                    <div>$626,015</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Tab-title-section">
+              <div class="Page-title">Tokens <img src="assets/images/stats.svg" alt="avalanche24Icon"></div>
+              <div class="Page-description">Platform and $ZLP index tokens.</div>
+            </div>
+            <div class="DashboardV2-token-cards">
+              <div class="stats-wrapper stats-wrapper--gmx">
+                <div class="App-card">
+                  <div class="stats-block">
+                    <div class="App-card-title">
+                      <div class="App-card-title-mark">
+                        <div class="App-card-title-mark-icon">
+                          <img src="assets/images/romi.png" alt="$ZOMI Token Icon" width="40px">
+                        </div>
+                        <div class="App-card-title-mark-info">
+                          <div class="App-card-title-mark-title">$ROMI</div>
+                          <div class="App-card-title-mark-subtitle">$ROMI</div>
+                        </div>
+                        <div>
+                          <div class="dropdown-arrow center-both" id="headlessui-menu-button-3" aria-haspopup="true"
+                            aria-expanded="false"><svg stroke="currentColor" fill="none" stroke-width="2"
+                              viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="20" width="20"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="App-card-divider"></div>
+                    <div class="App-card-content">
+                      <div class="App-card-row">
+                        <div class="label">Price</div>
+                        <div><span class="Tooltip nowrap"><span class="Tooltip-handle">$0.00</span></span></div>
+                      </div>
+                      <div class="App-card-row">
+                        <div class="label">Supply</div>
+                        <div>10,000 $ROMI</div>
+                      </div>
+                      <div class="App-card-row">
+                        <div class="label">Total Staked</div>
+                        <div><span class="Tooltip nowrap"><span class="Tooltip-handle">$0</span></span></div>
+                      </div>
+                      <div class="App-card-row">
+                        <div class="label">Market Cap</div>
+                        <div>$10</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="stats-piechart">
+                    <div class="recharts-wrapper"
+                      style="position: relative; cursor: default; width: 210px; height: 210px;"><svg cx="50%" cy="50%"
+                        class="recharts-surface" width="210" height="210" viewBox="0 0 210 210" version="1.1">
+                        <defs>
+                          <clippath id="recharts1-clip">
+                            <rect x="5" y="5" height="200" width="200"></rect>
+                          </clippath>
+                        </defs>
+                        <g class="recharts-layer recharts-pie">
+                          <g class="recharts-layer recharts-pie-sector">
+                            <path name="in liquidity" cx="105" cy="105" fill="#0598fa" stroke="#0598fa" color="#0598fa"
+                              stroke-width="1" class="recharts-sector" d="M 105,25A 80,80,0,1,1,70.73564944631276,32.70923792673068L 73.7337801197604,39.034679608141744
+            A 73,73,0,
+            1,0,
+            105,32 Z" style="filter: none; cursor: pointer;"></path>
+                          </g>
+                          <g class="recharts-layer recharts-pie-sector">
+                            <path name="not staked" cx="105" cy="105" fill="#5c0af5" stroke="#5c0af5" color="#5c0af5"
+                              stroke-width="1" class="recharts-sector" d="M 73.27943357547562,31.557466916592972
+    A 80,80,0,
+    0,1,
+    102.20804026379994,25.048733838472344
+  L 102.45233674071744,32.044469627606006
+            A 73,73,0,
+            0,0,
+            76.0549831376215,37.98368856139108 Z" style="filter: none; cursor: pointer;"></path>
+                          </g>
+                          <g class="recharts-layer recharts-pie-sector"></g>
+                        </g><text x="50%" y="50%" fill="white" text-anchor="middle"
+                          dominant-baseline="middle">Distribution</text>
+                      </svg>
+                      <div class="recharts-tooltip-wrapper"
+                        style="pointer-events: none; visibility: hidden; position: absolute; top: 0px; left: 0px;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="App-card">
+                  <div class="stats-block">
+                    <div class="App-card-title">
+                      <div class="App-card-title-mark">
+                        <div class="App-card-title-mark-icon"><img src="assets/images/glp.png" alt="glp40Icon" width="40px"><img
+                            src="assets/images/stats.svg" alt="Avalanche Icon" class="selected-network-symbol"></div>
+                        <div class="App-card-title-mark-info">
+                          <div class="App-card-title-mark-title">$ZLP</div>
+                          <div class="App-card-title-mark-subtitle">$ZLP</div>
+                        </div>
+                        <div>
+                          <div class="dropdown-arrow center-both" id="headlessui-menu-button-5" aria-haspopup="true"
+                            aria-expanded="false"><svg stroke="currentColor" fill="none" stroke-width="2"
+                              viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="20" width="20"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="App-card-divider"></div>
+                    <div class="App-card-content">
+                      <div class="App-card-row">
+                        <div class="label">Price</div>
+                        <div>$1.137</div>
+                      </div>
+                      <div class="App-card-row">
+                        <div class="label">Supply</div>
+                        <div>29 $ZLP</div>
+                      </div>
+                      <div class="App-card-row">
+                        <div class="label">Total Staked</div>
+                        <div>$34</div>
+                      </div>
+                      <div class="App-card-row">
+                        <div class="label">Market Cap</div>
+                        <div>$34</div>
+                      </div>
+                      <div class="App-card-row">
+                        <div class="label">Stablecoin Percentage</div>
+                        <div>49.50%</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="stats-piechart">
+                    <div class="recharts-wrapper"
+                      style="position: relative; cursor: default; width: 210px; height: 210px;"><svg cx="50%" cy="50%"
+                        class="recharts-surface" width="210" height="210" viewBox="0 0 210 210" version="1.1">
+                        <defs>
+                          <clippath id="recharts3-clip">
+                            <rect x="5" y="5" height="200" width="200"></rect>
+                          </clippath>
+                        </defs>
+                        <g class="recharts-layer recharts-pie">
+                          <g class="recharts-layer recharts-pie-sector">
+                            <path name="ETH" cx="105" cy="105" fill="#6062a6" stroke="#6062a6" stroke-width="1"
+                              class="recharts-sector" d="M 105,25
+    A 80,80,0,
+    0,1,
+    105.33178441162497,184.9993119914428
+  L 105.30275327560778,177.99937219219154
+            A 73,73,0,
+            0,0,
+            105,32 Z" style="filter: none; cursor: pointer;"></path>
+                          </g>
+                          <g class="recharts-layer recharts-pie-sector">
+                            <path name="USDC" cx="105" cy="105" fill="#2775CA" stroke="#2775CA" stroke-width="1"
+                              class="recharts-sector" d="M 102.5396465724782,184.96215768106612
+    A 80,80,0,
+    0,1,
+    102.20804026379994,25.048733838472344
+  L 102.45233674071744,32.044469627606006
+            A 73,73,0,
+            0,0,
+            102.75492749738636,177.96546888397285 Z" style="filter: none; cursor: pointer;"></path>
+                          </g>
+                          <g class="recharts-layer recharts-pie-sector"></g>
+                          <g class="recharts-layer recharts-pie-sector"></g>
+                        </g><text x="50%" y="50%" fill="white" text-anchor="middle" dominant-baseline="middle">$ZLP
+                          Pool</text>
+                      </svg>
+                      <div class="recharts-tooltip-wrapper"
+                        style="pointer-events: none; visibility: hidden; position: absolute; top: 0px; left: 0px;">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="token-table-wrapper App-card">
+                <div class="App-card-title">$ZLP Index Composition <img src="assets/images/stats.svg" alt="Avalanche Icon"></div>
+                <div class="App-card-divider"></div>
+                <table class="token-table">
+                  <thead>
+                    <tr>
+                      <th>TOKEN</th>
+                      <th>PRICE</th>
+                      <th>POOL</th>
+                      <th>WEIGHT</th>
+                      <th>UTILIZATION</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="token-symbol-wrapper">
+                          <div class="App-card-title-info">
+                            <div class="App-card-title-info-icon"><img src="assets/images/eth.svg" alt="ETH" width="40px"></div>
+                            <div class="App-card-title-info-text">
+                              <div class="App-card-info-title">Ethereum</div>
+                              <div class="App-card-info-subtitle">ETH</div>
+                            </div>
+                            <div>
+                              <div class="dropdown-arrow center-both" id="headlessui-menu-button-7" aria-haspopup="true"
+                                aria-expanded="false"><svg stroke="currentColor" fill="none" stroke-width="2"
+                                  viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="20"
+                                  width="20" xmlns="http://www.w3.org/2000/svg">
+                                  <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg></div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td>$1,783.65</td>
+                      <td><span class="Tooltip"><span class="Tooltip-handle">$19</span></span></td>
+                      <td><span class="Tooltip"><span class="Tooltip-handle">50.49% / 25.00%</span></span></td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="token-symbol-wrapper">
+                          <div class="App-card-title-info">
+                            <div class="App-card-title-info-icon"><img src="assets/images/wbtc.svg" alt="WBTC" width="40px"></div>
+                            <div class="App-card-title-info-text">
+                              <div class="App-card-info-title">Wrapped Bitcoin</div>
+                              <div class="App-card-info-subtitle">WBTC</div>
+                            </div>
+                            <div>
+                              <div class="dropdown-arrow center-both" id="headlessui-menu-button-9" aria-haspopup="true"
+                                aria-expanded="false"><svg stroke="currentColor" fill="none" stroke-width="2"
+                                  viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="20"
+                                  width="20" xmlns="http://www.w3.org/2000/svg">
+                                  <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg></div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td>$33,981.46</td>
+                      <td><span class="Tooltip"><span class="Tooltip-handle">$0</span></span></td>
+                      <td><span class="Tooltip"><span class="Tooltip-handle">0.00% / 25.00%</span></span></td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="token-symbol-wrapper">
+                          <div class="App-card-title-info">
+                            <div class="App-card-title-info-icon"><img src="assets/images/apecoin.svg" alt="APE" width="40px"></div>
+                            <div class="App-card-title-info-text">
+                              <div class="App-card-info-title">ApeCoin</div>
+                              <div class="App-card-info-subtitle">APE</div>
+                            </div>
+                            <div>
+                              <div class="dropdown-arrow center-both" id="headlessui-menu-button-11"
+                                aria-haspopup="true" aria-expanded="false"><svg stroke="currentColor" fill="none"
+                                  stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
+                                  height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                  <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg></div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td>$1.27</td>
+                      <td><span class="Tooltip"><span class="Tooltip-handle">$0</span></span></td>
+                      <td><span class="Tooltip"><span class="Tooltip-handle">0.00% / 25.00%</span></span></td>
+                      <td>0.00%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="token-symbol-wrapper">
+                          <div class="App-card-title-info">
+                            <div class="App-card-title-info-icon"><img src="assets/images/usdcoin.svg" alt="USDC" width="40px"></div>
+                            <div class="App-card-title-info-text">
+                              <div class="App-card-info-title">USD Coin</div>
+                              <div class="App-card-info-subtitle">USDC</div>
+                            </div>
+                            <div>
+                              <div class="dropdown-arrow center-both" id="headlessui-menu-button-13"
+                                aria-haspopup="true" aria-expanded="false"><svg stroke="currentColor" fill="none"
+                                  stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
+                                  height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                                  <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg></div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td>$1.00</td>
+                      <td><span class="Tooltip"><span class="Tooltip-handle">$14</span></span></td>
+                      <td><span class="Tooltip"><span class="Tooltip-handle">49.50% / 25.00%</span></span></td>
+                      <td>0.00%</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="token-grid">
+                <div class="App-card">
+                  <div class="App-card-title">
+                    <div class="mobile-token-card"><img src="./Dashboard1_files/ic_eth_24.6b1d8a1d.svg" alt="ETH"
+                        width="20px">
+                      <div class="token-symbol-text">ETH</div>
+                      <div>
+                        <div class="dropdown-arrow center-both" id="headlessui-menu-button-15" aria-haspopup="true"
+                          aria-expanded="false"><svg stroke="currentColor" fill="none" stroke-width="2"
+                            viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="20" width="20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                          </svg></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="App-card-divider"></div>
+                  <div class="App-card-content">
+                    <div class="App-card-row">
+                      <div class="label">Price</div>
+                      <div>$1,783.65</div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Pool</div>
+                      <div><span class="Tooltip"><span class="Tooltip-handle">$19</span></span></div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Weight</div>
+                      <div><span class="Tooltip"><span class="Tooltip-handle">50.49% / 25.00%</span></span></div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Utilization</div>
+                      <div>0.00%</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="App-card">
+                  <div class="App-card-title">
+                    <div class="mobile-token-card"><img src="./Dashboard1_files/ic_wbtc_24.5dda0ca3.svg" alt="WBTC"
+                        width="20px">
+                      <div class="token-symbol-text">WBTC</div>
+                      <div>
+                        <div class="dropdown-arrow center-both" id="headlessui-menu-button-17" aria-haspopup="true"
+                          aria-expanded="false"><svg stroke="currentColor" fill="none" stroke-width="2"
+                            viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="20" width="20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                          </svg></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="App-card-divider"></div>
+                  <div class="App-card-content">
+                    <div class="App-card-row">
+                      <div class="label">Price</div>
+                      <div>$33,981.46</div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Pool</div>
+                      <div><span class="Tooltip"><span class="Tooltip-handle">$0</span></span></div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Weight</div>
+                      <div><span class="Tooltip"><span class="Tooltip-handle">0.00% / 25.00%</span></span></div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Utilization</div>
+                      <div>0.00%</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="App-card">
+                  <div class="App-card-title">
+                    <div class="mobile-token-card"><img src="./Dashboard1_files/ic_ape_24.a00a11a9.svg" alt="APE"
+                        width="20px">
+                      <div class="token-symbol-text">APE</div>
+                      <div>
+                        <div class="dropdown-arrow center-both" id="headlessui-menu-button-19" aria-haspopup="true"
+                          aria-expanded="false"><svg stroke="currentColor" fill="none" stroke-width="2"
+                            viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="20" width="20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                          </svg></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="App-card-divider"></div>
+                  <div class="App-card-content">
+                    <div class="App-card-row">
+                      <div class="label">Price</div>
+                      <div>$1.27</div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Pool</div>
+                      <div><span class="Tooltip"><span class="Tooltip-handle">$0</span></span></div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Weight</div>
+                      <div><span class="Tooltip"><span class="Tooltip-handle">0.00% / 25.00%</span></span></div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Utilization</div>
+                      <div>0.00%</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="App-card">
+                  <div class="App-card-title">
+                    <div class="mobile-token-card"><img src="./Dashboard1_files/ic_usdc_24.0952740b.svg" alt="USDC"
+                        width="20px">
+                      <div class="token-symbol-text">USDC</div>
+                      <div>
+                        <div class="dropdown-arrow center-both" id="headlessui-menu-button-21" aria-haspopup="true"
+                          aria-expanded="false"><svg stroke="currentColor" fill="none" stroke-width="2"
+                            viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="20" width="20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                          </svg></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="App-card-divider"></div>
+                  <div class="App-card-content">
+                    <div class="App-card-row">
+                      <div class="label">Price</div>
+                      <div>$1.00</div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Pool</div>
+                      <div><span class="Tooltip"><span class="Tooltip-handle">$14</span></span></div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Weight</div>
+                      <div><span class="Tooltip"><span class="Tooltip-handle">49.50% / 25.00%</span></span></div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Utilization</div>
+                      <div>0.00%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Footer">
+            <div class="Footer-wrapper">
+              <div class="Footer-logo"><img src="assets/images/newlogo.png" alt="MetaMask"></div>
+              <div class="Footer-social-link-block"><a class="App-social-link" href="https://twitter.com/zomi.finance"
+                  target="_blank" rel="noopener noreferrer"><img src="assets/images/twitter.svg" alt="Twitter"></a><a
+                  class="App-social-link" href="https://zomifinance.medium.com/" target="_blank"
+                  rel="noopener noreferrer"><img src="assets/images/medium.svg" alt="Medium"></a><a class="App-social-link"
+                  href="https://github.com/zomi" target="_blank" rel="noopener noreferrer"><img src="assets/images/discord.svg"
+                    alt="Github"></a><a class="App-social-link" href="https://t.me/zomichat" target="_blank"
+                  rel="noopener noreferrer"><img src="assets/images/telegram.svg" alt="Telegram"></a><a class="App-social-link"
+                  href="https://discord.gg/senshilabs" target="_blank" rel="noopener noreferrer"><img src="assets/images/discord.svg"
+                    alt="Discord"></a></div>
+              <div class="Footer-links"><a class="Footer-link" href="https://zomi.finance/#/terms-and-conditions">Terms
+                  and Conditions</a><a class="Footer-link" href="https://zomi.finance/#/referral-terms">Referral
+                  Terms</a><a target="_blank" href="https://docs.zomi.finance/" class="Footer-link"
+                  rel="noopener noreferrer">Media Kit</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Toastify"></div>
+    <div class="event-toast-container"
+      style="position: fixed; z-index: 2; inset: 93px 30px 16px 16px; pointer-events: none; transition: all 200ms ease 0s;">
+    </div>
+  </div>
+  <div id="navbar1" class="Modal Connect-wallet-modal" style="opacity: 1;">
+    <div class="Modal-backdrop" style="overflow: hidden; position: fixed;"></div>
+    <div class="Modal-content">
+      <div class="Modal-title-bar">
+        <div class="Modal-title">Connect Wallet</div>
+        <div class="Modal-close-button" onclick="myfunction1()"><svg stroke="currentColor" fill="currentColor"
+            stroke-width="0" viewBox="0 0 24 24" font-size="20" class="Modal-close-icon" height="1em" width="1em"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill="none" d="M0 0h24v24H0z"></path>
+            <path
+              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+            </path>
+          </svg></div>
+      </div>
+      <div class="divider"></div>
+      <div class="Modal-body DiableScroll-touch-move-container"><button class="Wallet-btn MetaMask-btn"
+          onclick="location.href = 'https://metamask.io/';"><img src="assets/images/metamask.png" alt="MetaMask">
+          <div>MetaMask</div>
+        </button><button class="Wallet-btn CoinbaseWallet-btn"
+          onclick="location.href = 'https://www.coinbase.com/';"><img src="assets/images/coinbase.png" alt="Coinbase Wallet">
+          <div>Coinbase Wallet</div>
+        </button><button class="Wallet-btn WalletConnect-btn"
+          onclick="location.href = 'https://walletconnect.com/';"><img src="assets/images/walletconnect.svg" alt="WalletConnect">
+          <div>WalletConnect</div>
+        </button></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <div></div>
+  <div></div>
+</body>
+
+</html>

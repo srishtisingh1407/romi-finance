@@ -1,0 +1,669 @@
+@media (max-width:900px) {
+    .Footer-social-link-block .App-social-link {
+        margin: 0 1.6rem
+    }
+}
+
+@media (max-width:580px) {
+    .Footer-links {
+        flex-direction: column
+    }
+
+    .Footer-links>a {
+        padding-right: 0;
+        margin-bottom: .5rem
+    }
+
+    .Footer-social-link-block {
+        margin-bottom: 1.4rem
+    }
+
+    .Footer-wrapper {
+        padding-top: 2.5rem
+    }
+
+    .home {
+        height: 23rem
+    }
+
+    .Footer-links>.a:not(:last-child),
+    .Footer-links>a:not(:last-child) {
+        padding-right: 0
+    }
+
+    .Footer-social-link-block .App-social-link {
+        margin: 0 .8rem
+    }
+}
+
+@media (max-width:750px) {
+    .Home-token-card-options {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 1.5rem
+    }
+}
+
+@media (max-width:500px) {
+    .Home-title-section-container {
+        padding-top: 7.4rem
+    }
+
+    .Home-title {
+        font-size: 4.34rem;
+        line-height: 5.58rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        letter-spacing: 0
+    }
+
+    .Home-cta-options {
+        width: calc(100% + 3.2rem);
+        margin-left: -1.6rem;
+        margin-right: -1.6rem
+    }
+
+    .Home-cta-option-info {
+        width: 50%
+    }
+
+    .Home-cta-option-subtitle {
+        margin-bottom: .4rem
+    }
+
+    .Home-cta-option-title {
+        line-height: 2.4rem
+    }
+
+    .Home-cta-option-action {
+        margin-top: .8rem
+    }
+
+    .Home-latest-info-container {
+        padding-left: 1.6rem !important;
+        padding-right: 1.6rem !important;
+        padding-top: 7.4rem
+    }
+
+    .Home-latest-info__icon {
+        margin-right: 2.95rem
+    }
+
+    .Home-latest-info-block+.Home-latest-info-block {
+        margin-top: 1.6rem
+    }
+
+    .Home-faqs-content {
+        padding-right: 1.5rem
+    }
+}
+
+@media (max-width:400px) {
+    .Home-description {
+        font-size: 1.5rem;
+        line-height: 2.17rem;
+        max-width: 44.4rem;
+        color: #cecece;
+        margin-bottom: 2.6rem
+    }
+
+    .Home-latest-info__value {
+        font-size: 2.7rem
+    }
+}
+
+@media (max-width:350px) {
+    .Home-title {
+        font-size: 3.875rem;
+        line-height: 4.65rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        letter-spacing: 0
+    }
+
+    .Home-latest-info__icon {
+        margin: 0 1.5rem
+    }
+}
+@media (max-width:1000px) {
+    .Home-token-card-option-action {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 1.5rem
+    }
+
+    .Home-token-card-option-action .a,
+    .Home-token-card-option-action a {
+        justify-content: center;
+        display: inline-block
+    }
+
+    .Home-token-card-option-action a {
+        text-align: center
+    }
+
+    .Home-token-card-option-action>.buy {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 1.5rem
+    }
+
+    .Home-token-card-option-action>.read-more {
+        display: inline-block
+    }
+
+    .Home-token-card-option-action>.buy .a:first-child,
+    .Home-token-card-option-action>.buy a:first-child {
+        margin-right: 0
+    }
+}
+
+@media (max-width:1033px) {
+    .App-header-user-address {
+        padding: 0
+    }
+
+    .App-header-user-link,
+    .App-header-user-netowork {
+        margin-right: 1.6rem
+    }
+
+    .App-header-link-home {
+        display: block
+    }
+
+    .App-header-user {
+        padding-bottom: 0
+    }
+
+    .App-header-container-right {
+        display: flex;
+        align-items: center
+    }
+
+    .App-header-link-desktop {
+        display: none
+    }
+
+    .App-header {
+        grid-template-columns: 1fr auto auto auto auto
+    }
+
+    .App-header-link-main img {
+        height: 2.1rem
+    }
+
+    .App-header.large {
+        display: none
+    }
+
+    .App-header.small {
+        height: 6.2rem;
+        -webkit-backdrop-filter: blur(4px);
+        backdrop-filter: blur(4px);
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+        background: transparent 0 0 no-repeat padding-box;
+        border-bottom: 1px solid hsla(0, 0%, 100%, .06274509803921569)
+    }
+
+    .App-header.small:after {
+        height: 1.3rem;
+        width: 100%;
+        content: " ";
+        background: transparent linear-gradient(180deg, rgba(0, 0, 0, .18823529411764706), transparent) 0 0 no-repeat padding-box;
+        position: absolute;
+        bottom: -1.3rem;
+        left: 0
+    }
+
+    a.App-header-user-account {
+        margin-right: 0
+    }
+}
+
+@media (max-width:450px) {
+
+    .App-header-user-link,
+    .App-header-user-netowork {
+        margin-right: .6rem
+    }
+
+    .App-header-menu-icon-block {
+        margin-left: 0;
+        margin-right: .4rem
+    }
+
+    .App-header-menu-icon {
+        margin: .4rem .5rem
+    }
+
+    .App-header.small {
+        padding-left: .6rem;
+        padding-right: .6rem
+    }
+
+    .App-header .App-header-link-main {
+        padding: .155rem !important;
+        margin-left: 0 !important
+    }
+}
+
+@media (max-width:1024px) {
+    .stats-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1.5rem
+    }
+
+    .stats-wrapper .App-card {
+        max-width: unset !important;
+        margin: 0
+    }
+}
+
+@media (max-width:1100px) {
+    .token-table-wrapper {
+        display: none
+    }
+}
+
+@media (max-width:900px) {
+    .DashboardV2-cards {
+        grid-template-columns: 1fr
+    }
+
+    .DashboardV2-token-cards .token-grid {
+        padding-top: 0
+    }
+}
+
+@media (max-width:660px) {
+    .stats-wrapper .App-card {
+        flex-wrap: wrap;
+        padding-bottom: 0
+    }
+
+    .stats-piechart {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0
+    }
+}
+
+@media (max-width:700px) {
+    .Tooltip-row {
+        margin-bottom: 1rem
+    }
+
+    .Tooltip-row,
+    .Tooltip-row>span.label {
+        display: block
+    }
+
+    .Tooltip-row-values li,
+    .Tooltip-row>.Tooltip-row-value {
+        text-align: left
+    }
+}
+
+@media (max-width:1200px) {
+    .container {
+        padding: 0 40px
+    }
+}
+
+@media (max-width:1040px) {
+    .container {
+        padding: 0 20px
+    }
+}
+
+@media (max-width:700px) {
+    .Tooltip-row {
+        margin-bottom: 1rem
+    }
+
+    .Tooltip-row,
+    .Tooltip-row>span.label {
+        display: block
+    }
+
+    .Tooltip-row-values li {
+        text-align: left
+    }
+
+    .Tooltip-popup {
+        min-width: 20rem
+    }
+
+    .Tooltip-row>.Tooltip-row-value {
+        text-align: left
+    }
+}
+
+@media (max-width:800px) {
+    .display-bg {
+        display: none !important
+    }
+
+    .display-sm {
+        display: block !important
+    }
+
+    .card-details {
+        display: flex;
+        flex-direction: column
+    }
+
+    .section-title-block {
+        margin-bottom: 1.5rem !important
+    }
+
+    .cards-row {
+        grid-template-columns: 1fr
+    }
+}
+
+@media (max-width:400px) {
+    .BuyGMXGLP-description {
+        font-size: var(--font-base);
+        line-height: 2rem
+    }
+
+    .buttons-group {
+        grid-template-columns: auto
+    }
+
+    .col-1 {
+        display: grid
+    }
+}
+
+@media (max-width:370px) {
+    .cards-row {
+        grid-template-columns: auto
+    }
+}
+
+@media (max-width:450px) {
+    .connect-wallet {
+        padding: .5rem .8rem
+    }
+}
+
+@media (max-width:350px) {
+    .connect-wallet .btn-image {
+        display: none
+    }
+
+    .connect-wallet .btn-label {
+        
+        margin-left: 0
+    }
+
+    .connect-wallet {
+        height: 3.6rem
+    }
+}
+
+@media(max-width:1033px) {
+    .long-connect-btn {
+        display: none !important
+    }
+
+    .App-header-user-address {
+        padding: 0
+    }
+
+    .short-connect-btn {
+        display: flex !important
+    }
+
+    .App-header-trade-link {
+        margin-right: 1.6rem
+    }
+
+    .header-dropdown-content {
+        display: block !important;
+        position: relative !important;
+        top: 0 !important;
+        background: none !important;
+        box-shadow: none !important
+    }
+
+    .App-header-user-netowork {
+        margin-right: 1.6rem
+    }
+
+    button.App-connect-wallet {
+        margin-top: .465rem;
+        margin-bottom: .465rem
+    }
+
+    .App-header-link-home {
+        display: block
+    }
+
+    .App-cta.small {
+        padding: .9rem .8rem
+    }
+
+    .App-subtitle {
+        margin-bottom: 4.65rem
+    }
+
+    .App-header-user {
+        padding-bottom: 0
+    }
+
+    .App-header-container-right {
+        display: flex;
+        align-items: center
+    }
+
+    .App-header-link-desktop {
+        display: none
+    }
+
+    .App-header {
+        grid-template-columns: 1fr auto auto auto auto
+    }
+
+    .App-header-link-main img {
+        height: 2.1rem
+    }
+
+    .App-header.large {
+        display: none
+    }
+
+    .App-header.small {
+        height: 6.2rem;
+        -webkit-backdrop-filter: blur(4px);
+        backdrop-filter: blur(4px);
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+        background: transparent 0 0 no-repeat padding-box;
+        border-bottom: 1px solid hsla(0, 0%, 100%, .062745098)
+    }
+
+    .App-header.small:after {
+        height: 1.3rem;
+        width: 100%;
+        content: " ";
+        background: transparent linear-gradient(180deg, rgba(0, 0, 0, .1882352941), transparent) 0 0 no-repeat padding-box;
+        position: absolute;
+        bottom: -1.3rem;
+        left: 0
+    }
+
+    .Page-title-section {
+        margin-top: 3.1rem
+    }
+
+    a.App-header-user-account {
+        margin-right: 0
+    }
+
+    .App-card-long-content.card-list {
+        grid-template-columns: 1fr 1fr
+    }
+}
+
+@media(max-width:1000px) {
+    .App-card-long-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 1.5rem
+    }
+
+    .App-card-divider-vertical {
+        display: none
+    }
+
+    .App-card-long_sub {
+        width: 100%
+    }
+}
+
+@media(max-width:700px) {
+    .App-card-long-content {
+        grid-template-columns: 1fr 1fr
+    }
+}
+
+@media(max-width:600px) {
+
+    .App-card-long-content,
+    .App-card-long-content.card-list {
+        grid-template-columns: 1fr
+    }
+
+    .default-container {
+        padding-left: 2.2rem;
+        padding-right: 2.2rem
+    }
+}
+
+
+@media(max-width:600px) {
+    .App-header-link-main img.big {
+        display: none
+    }
+
+    .App-header-link-main img.small {
+        display: inline-block
+    }
+}
+
+@media(max-width:500px) {
+    .header-connect-btn {
+        margin-right: .4rem
+    }
+}
+
+@media(max-width:450px) {
+    .App-header-trade-link {
+        margin-right: .6rem
+    }
+
+    .App-header-trade-link a {
+        padding: 0 .8rem
+    }
+
+    .App-header-user-netowork {
+        margin-right: .6rem
+    }
+
+    .App-header-menu-icon-block {
+        margin-left: 0;
+        margin-right: .4rem
+    }
+
+    .mobile-cross-menu {
+        margin-right: 1.2rem
+    }
+
+    .App-header-menu-icon {
+        margin: .4rem .5rem
+    }
+
+    .App-header.small {
+        padding-left: .6rem;
+        padding-right: .6rem
+    }
+
+    .Home-faqs-content {
+        padding-left: 1.5rem
+    }
+
+    .header-connect-btn,
+    .header-connect-btn:active {
+        padding-left: .5rem;
+        padding-right: .5rem
+    }
+
+    .header-connect-btn:focus {
+        padding-left: .4rem;
+        padding-right: .4rem
+    }
+
+    .App-header .App-header-link-main {
+        padding: .155rem !important;
+        margin-left: 0 !important
+    }
+
+    .App-header-trade-link.homepage-header {
+        margin-right: 1.6rem
+    }
+}
+@media (max-width:1033px) {
+    .App-header-network {
+        margin-left: 1.6rem
+    }
+
+    .App-header-language {
+        margin-left: 0
+    }
+}
+
+@media (max-width:450px) {
+    .App-header-network {
+        margin-left: .6rem
+    }
+
+    .App-header-language {
+        margin-left: 0
+    }
+
+    .network-dropdown>button {
+        padding: 0 .5rem
+    }
+
+    .network-dropdown.homepage-header>button {
+        padding: 0 .8rem
+    }
+}
+@media (max-width:900px) {
+    .StakeV2-cards {
+        grid-template-columns: 1fr;
+
+    }
+    .StakeV2-content {
+        min-height: 100vh;
+    }
+   
+}
+@media (max-width:900px) {
+    .DashboardV2-projects {
+        grid-template-columns: 1fr
+    }
+}
